@@ -8,3 +8,9 @@ INSERT INTO students ( studentid, [[studentlastname], studentfirstname, programg
 INSERT INTO students ( studentid, [[studentlastname], studentfirstname, programgroup) VALUES ('A108','','Komal','Group2')
 INSERT INTO students ( studentid, [[studentlastname], studentfirstname, programgroup) VALUES ('A109','Kaur','Tanvir','Group1')
 INSERT INTO students ( studentid, [[studentlastname], studentfirstname, programgroup) VALUES ('A110','kaur','Harpreet','Group3')
+
+
+USE cesversion2;
+GO
+EXEC sp_rename 'students.studentgroup' , 'programgroup';
+GO
