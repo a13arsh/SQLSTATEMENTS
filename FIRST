@@ -30,3 +30,14 @@ INSERT INTO pgmgroups ( programgroupid, programgroupname, classid, sectionid ) V
  INSERT INTO pgmgroups ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '10', 'Group 2', 'Java', '2');
  INSERT INTO pgmgroups ( programgroupid, programgroupname, classid, sectionid ) VALUES ( '11', 'Group 2', 'Java', '2');
  select *  from pgmgroups
+
+
+
+
+CREATE TABLE students( 
+       studentid VARCHAR (20)     NOT NULL, 
+	  studentlastname VARCHAR (20)   , 
+	   studentfirstname VARCHAR (20) , 
+studentgroup VARCHAR(20),	   
+       PRIMARY KEY (studentid) 
+);
