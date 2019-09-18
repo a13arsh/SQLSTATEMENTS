@@ -70,3 +70,5 @@ INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '10',5 ,'Gr
 INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '11',3,'Potato');
 INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '12',2,'Potato');
 
+
+
