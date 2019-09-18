@@ -53,3 +53,20 @@ primary key(veggie_id),
 );
 
 select * from veggies
+
+
+
+
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '1', 1 ,Carrots');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '2', 9 ,'Peas');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '3', 3,'Tomatos');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '4', 7,'Corn');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '5', 2,'Squash');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '6', 3,'Artichokes');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '7', 9,'Aubergines');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '8', 2,'Califlower');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '9', 1,'Green bean');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '10',5 ,'Green bean');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '11',3,'Potato');
+INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '12',2,'Potato');
+
