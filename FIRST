@@ -94,3 +94,11 @@ INSERT INTO veggies ( veggie_id, veggie_price, veggie_name) VALUES ( '12',2,'Pot
        DATETIME_PRECISION
 
 FROM   INFORMATION_SCHEMA.COLUMNS;
+
+
+
+product of 2 columns from different tables
+select veggies.veggie_name,
+lot.quantity_of_tables * veggies.veggie_price
+ from veggies, lot
+where veggies.veggie_id = lot.veggie_id;
