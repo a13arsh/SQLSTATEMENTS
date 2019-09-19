@@ -108,3 +108,13 @@ min and max from 2 tables with conditions
 select min(lot.quantity_of_tables) , min(veggies.veggie_name)
  from lot, veggies
 where lot.veggie_id = veggies.veggie_id and veggies.veggie_type = 'roots'
+
+
+alphabetically and adding column name
+select veggies.veggie_name,
+lot.quantity_of_tables * veggies.veggie_price as total
+ from veggies, lot
+where veggies.veggie_id = lot.veggie_id
+order by veggie_name
+
+
